@@ -1,0 +1,11 @@
+## Copy this file to local.properties and fill in the values below.
+## local.properties must never be committed to version control.
+
+sdk.dir=/path/to/Android/sdk
+
+## Google Maps SDK API key (required only for the Maps / AR Navigation layer)
+MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
+
+## Optional: Cloud AI provider key — only required if the user explicitly
+## enables "Cloud AI" in Settings > AI. SPECTRA works fully without it.
+CLOUD_AI_API_KEY=
