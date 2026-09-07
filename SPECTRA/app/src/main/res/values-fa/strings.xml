@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اسپکترا</string>
+    <string name="app_tagline">جهان، با یک لایه از اطلاعات.</string>
+
+    <!-- ناوبری -->
+    <string name="nav_explore">کاوش</string>
+    <string name="nav_ar_camera">دوربین واقعیت افزوده</string>
+    <string name="nav_memories">خاطرات</string>
+    <string name="nav_map">نقشه</string>
+    <string name="nav_history">تاریخچه</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- آموزش اولیه -->
+    <string name="onboarding_welcome_title">به اسپکترا خوش آمدید</string>
+    <string name="onboarding_welcome_body">دوربین را به سمت جهان بگیرید. اسپکترا اطلاعات زنده — متن، اشیاء، مکان‌ها و یادداشت‌های خودتان — را مستقیماً روی چیزی که می‌بینید نمایش می‌دهد.</string>
+    <string name="onboarding_privacy_title">داده‌های شما روی دستگاه شما می‌ماند</string>
+    <string name="onboarding_privacy_body">پردازش فریم دوربین، تشخیص متن و تشخیص اشیاء به‌صورت پیش‌فرض روی خود دستگاه انجام می‌شود. تا وقتی خودتان فعالش نکنید چیزی به فضای ابری ارسال نمی‌شود.</string>
+    <string name="onboarding_permissions_title">دسترسی‌ها، شفاف و از قبل توضیح داده شده</string>
+    <string name="onboarding_permissions_body">اسپکترا فقط زمانی که از یک قابلیت استفاده می‌کنید، دسترسی موردنیاز همان قابلیت را درخواست می‌کند. هر زمان می‌توانید از مرکز حریم خصوصی همه‌چیز را بررسی یا لغو کنید.</string>
+    <string name="onboarding_get_started">شروع کنید</string>
+    <string name="onboarding_skip">رد شدن</string>
+    <string name="onboarding_next">بعدی</string>
+
+    <!-- لنزها -->
+    <string name="lens_explore">لنز کاوش</string>
+    <string name="lens_text">لنز متن</string>
+    <string name="lens_object">لنز اشیاء</string>
+    <string name="lens_travel">لنز سفر</string>
+    <string name="lens_memory">لنز خاطرات</string>
+    <string name="lens_shopping">لنز خرید</string>
+    <string name="lens_study">لنز مطالعه</string>
+    <string name="lens_navigation">لنز مسیریابی</string>
+    <string name="lens_custom">لنز سفارشی</string>
+    <string name="lens_builder_title">سازنده لنز</string>
+    <string name="lens_builder_new">لنز سفارشی جدید</string>
+    <string name="lens_builder_triggers">محرک‌ها</string>
+    <string name="lens_builder_layers">لایه‌های اطلاعاتی</string>
+    <string name="shortcut_open_text_lens">باز کردن لنز متن</string>
+    <string name="shortcut_open_object_lens">باز کردن لنز اشیاء</string>
+
+    <!-- HUD دوربین واقعیت افزوده -->
+    <string name="hud_scanning">در حال اسکن…</string>
+    <string name="hud_tracking_lost">ردیابی از دست رفت — دستگاه را آرام حرکت دهید</string>
+    <string name="hud_relocalizing">در حال بازتنظیم موقعیت…</string>
+    <string name="hud_low_confidence_hidden">%1$d نتیجه با اطمینان پایین پنهان شد</string>
+    <string name="hud_location_on">موقعیت مکانی روشن</string>
+    <string name="hud_location_off">موقعیت مکانی خاموش</string>
+    <string name="hud_offline">آفلاین</string>
+    <string name="hud_fps">%1$d فریم بر ثانیه</string>
+    <string name="hud_debug_mode">حالت دیباگ</string>
+    <string name="hud_capture">عکس</string>
+    <string name="hud_record">ضبط</string>
+    <string name="hud_lens_switch">تعویض لنز</string>
+    <string name="hud_layers">لایه‌ها</string>
+    <string name="hud_ai_assistant">از اسپکترا بپرس</string>
+    <string name="hud_voice_listening">در حال شنیدن…</string>
+    <string name="hud_unsupported_device_title">پشتیبانی محدود از واقعیت افزوده روی این دستگاه</string>
+    <string name="hud_unsupported_device_body">دستگاه شما از ARCore پشتیبانی نمی‌کند. اسپکترا در حالت فقط‌دوربین اجرا می‌شود: تشخیص متن، تشخیص اشیاء و یادداشت‌ها همچنان کار می‌کنند، بدون قرارگیری فضایی.</string>
+
+    <!-- کارت شیء -->
+    <string name="object_card_pin">سنجاق کردن</string>
+    <string name="object_card_save">ذخیره</string>
+    <string name="object_card_search">جستجو</string>
+    <string name="object_card_share">اشتراک‌گذاری</string>
+    <string name="object_card_note">یادداشت</string>
+    <string name="object_card_task">وظیفه</string>
+    <string name="object_card_translate">ترجمه</string>
+    <string name="object_card_hide">پنهان کردن</string>
+    <string name="object_card_confidence">اطمینان %1$d٪</string>
+
+    <!-- توضیح تصمیم -->
+    <string name="explain_text_detected">متن شناسایی شد</string>
+    <string name="explain_object_recognized">شیء شناسایی شد</string>
+    <string name="explain_location_match">تطبیق با موقعیت مکانی</string>
+    <string name="explain_personal_marker">نشانگر شخصی شما</string>
+    <string name="explain_poi_match">نقطه موردعلاقه در نزدیکی</string>
+
+    <!-- کنش‌های متن -->
+    <string name="text_action_copy">کپی</string>
+    <string name="text_action_translate">ترجمه</string>
+    <string name="text_action_search">جستجو</string>
+    <string name="text_action_save">ذخیره</string>
+    <string name="text_action_summarize">خلاصه‌سازی</string>
+    <string name="text_action_add_note">افزودن به یادداشت‌ها</string>
+    <string name="text_action_create_reminder">ساخت یادآور</string>
+    <string name="text_action_open_url">باز کردن پیوند</string>
+    <string name="text_action_share">اشتراک‌گذاری</string>
+    <string name="text_detected_language">زبان شناسایی‌شده: %1$s</string>
+
+    <!-- دستیار هوشمند بینایی -->
+    <string name="ai_assistant_title">درباره چیزی که می‌بینی از اسپکترا بپرس</string>
+    <string name="ai_assistant_hint">«این چیست؟ این تابلو را خلاصه کن… از این یک وظیفه بساز…»</string>
+    <string name="ai_assistant_thinking">در حال فکر کردن…</string>
+    <string name="ai_assistant_cloud_warning_title">این فریم به فضای ابری ارسال شود؟</string>
+    <string name="ai_assistant_cloud_warning_body">این پرسش نیاز به سرویس هوش مصنوعی ابری دارد. فریم فعلی دوربین و پرسش شما به بیرون ارسال می‌شود. بدون تأیید شما چیزی ارسال نخواهد شد.</string>
+    <string name="ai_assistant_allow_once">فقط این‌بار اجازه بده</string>
+    <string name="ai_assistant_deny">ارسال نکن</string>
+    <string name="ai_action_create_note">ساخت یادداشت</string>
+    <string name="ai_action_create_task">ساخت وظیفه</string>
+    <string name="ai_action_translate">ترجمه</string>
+    <string name="ai_action_search">جستجو</string>
+    <string name="ai_action_add_bookmark">افزودن نشانک</string>
+    <string name="ai_action_add_place">افزودن مکان</string>
+    <string name="ai_action_create_reminder">ساخت یادآور</string>
+    <string name="ai_action_confirm_title">تأیید اقدام</string>
+    <string name="ai_action_confirm_body">اسپکترا می‌خواهد این کار را انجام دهد: %1$s</string>
+
+    <!-- خاطرات / دفترچه فضایی -->
+    <string name="memories_title">خاطرات</string>
+    <string name="memories_empty">هنوز چیزی سنجاق نشده. دوربین را به سمت یک مکان یا شیء بگیرید و روی «سنجاق کردن» بزنید تا چیزی برای بعد اینجا بگذارید.</string>
+    <string name="memory_note_hint">یادداشتی برای این نقطه بنویسید…</string>
+    <string name="memory_task_due">سررسید %1$s</string>
+    <string name="memory_created_at">در %1$s اینجا گذاشته شد</string>
+
+    <!-- جستجو -->
+    <string name="search_hint">جستجو در یادداشت‌ها، اشیاء، متن، مکان‌ها…</string>
+    <string name="search_filter_notes">یادداشت‌ها</string>
+    <string name="search_filter_objects">اشیاء</string>
+    <string name="search_filter_text">متن شناسایی‌شده</string>
+    <string name="search_filter_places">مکان‌ها</string>
+    <string name="search_filter_tasks">وظایف</string>
+    <string name="search_no_results">نتیجه‌ای یافت نشد</string>
+
+    <!-- ساعات کاری -->
+    <string name="hours_title">ساعات کاری</string>
+    <string name="hours_subtitle">ساعات را خودتان وارد کنید — اسپکترا وضعیت باز/بسته و شمارش معکوس تا زمان بعدی را کاملاً روی دستگاه و بدون هیچ داده بیرونی محاسبه می‌کند.</string>
+    <string name="hours_open_now">اکنون باز است</string>
+    <string name="hours_closed_now">اکنون بسته است</string>
+    <string name="hours_open_24h">۲۴ ساعته باز</string>
+    <string name="hours_closed_all_day">تمام روز بسته</string>
+    <string name="hours_unknown">ساعات تنظیم نشده</string>
+    <string name="hours_closes_in">تا %1$s دیگر بسته می‌شود</string>
+    <string name="hours_opens_in">تا %1$s دیگر باز می‌شود</string>
+    <string name="hours_closing_soon">به‌زودی بسته می‌شود</string>
+    <string name="hours_opens_tomorrow_at">فردا ساعت %1$s باز می‌شود</string>
+    <string name="hours_add_range">افزودن بازه زمانی</string>
+    <string name="hours_remove_range">حذف</string>
+    <string name="hours_copy_to_all_days">اعمال این روز برای همه روزها</string>
+    <string name="hours_from">از</string>
+    <string name="hours_to">تا</string>
+    <string name="hours_day_1">دوشنبه</string>
+    <string name="hours_day_2">سه‌شنبه</string>
+    <string name="hours_day_3">چهارشنبه</string>
+    <string name="hours_day_4">پنجشنبه</string>
+    <string name="hours_day_5">جمعه</string>
+    <string name="hours_day_6">شنبه</string>
+    <string name="hours_day_7">یکشنبه</string>
+    <string name="hours_save">ذخیره ساعات</string>
+    <string name="hours_duration_days">%1$d روز %2$d ساعت</string>
+    <string name="hours_duration_hours">%1$d ساعت %2$d دقیقه</string>
+    <string name="hours_duration_minutes">%1$d دقیقه</string>
+
+    <!-- نقشه / مسیریابی -->
+    <string name="map_title">نقشه</string>
+    <string name="nav_distance_meters">%1$d متر</string>
+    <string name="nav_distance_km">%1$.1f کیلومتر</string>
+    <string name="nav_arrive_in">رسیدن تا %1$s دیگر</string>
+    <string name="nav_start">شروع مسیریابی واقعیت افزوده</string>
+    <string name="nav_stop">توقف مسیریابی</string>
+
+    <!-- تاریخچه -->
+    <string name="history_title">تاریخچه</string>
+    <string name="history_clear">پاک کردن تاریخچه</string>
+    <string name="history_clear_confirm">این کار تاریخچه تشخیص و تعاملات را از این دستگاه حذف می‌کند. یادداشت‌ها و وظایف شخصی حذف نمی‌شوند.</string>
+    <string name="history_empty">هنوز چیزی اینجا نیست</string>
+
+    <!-- تنظیمات -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_general">عمومی</string>
+    <string name="settings_camera">دوربین</string>
+    <string name="settings_ar">واقعیت افزوده</string>
+    <string name="settings_vision">بینایی ماشین</string>
+    <string name="settings_ai">هوش مصنوعی</string>
+    <string name="settings_location">موقعیت مکانی</string>
+    <string name="settings_maps">نقشه</string>
+    <string name="settings_privacy">حریم خصوصی</string>
+    <string name="settings_security">امنیت</string>
+    <string name="settings_notifications">اعلان‌ها</string>
+    <string name="settings_battery">باتری</string>
+    <string name="settings_models">مدل‌ها</string>
+    <string name="settings_appearance">ظاهر</string>
+    <string name="settings_advanced">پیشرفته</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_about">درباره اسپکترا</string>
+
+    <!-- ظاهر -->
+    <string name="appearance_theme_mode">حالت تم</string>
+    <string name="appearance_mode_system">سیستم</string>
+    <string name="appearance_mode_light">روشن</string>
+    <string name="appearance_mode_dark">تاریک</string>
+    <string name="appearance_accent">رنگ تأکیدی</string>
+    <string name="appearance_accent_default">پیش‌فرض ویندوز</string>
+    <string name="appearance_accent_blue">آبی</string>
+    <string name="appearance_accent_red">قرمز</string>
+    <string name="appearance_dynamic_color">رنگ پویا (Material You)</string>
+    <string name="appearance_auto_schedule">تعویض خودکار به تم تاریک هنگام غروب</string>
+    <string name="appearance_reduce_motion">کاهش انیمیشن‌ها</string>
+    <string name="appearance_amoled">مشکی کامل (AMOLED)</string>
+
+    <!-- مرکز حریم خصوصی -->
+    <string name="privacy_center_title">مرکز حریم خصوصی</string>
+    <string name="privacy_permission_camera">دوربین</string>
+    <string name="privacy_permission_camera_desc">برای تمام قابلیت‌های واقعیت افزوده و بینایی ماشین لازم است — پیش‌نمایش زنده جز در صورت اکسپورت توسط شما، از این صفحه خارج نمی‌شود.</string>
+    <string name="privacy_permission_microphone">میکروفون</string>
+    <string name="privacy_permission_microphone_desc">فقط برای دستورهای صوتی اختیاری به دستیار هوشمند بینایی استفاده می‌شود. به‌صورت پیش‌فرض خاموش است.</string>
+    <string name="privacy_permission_location">موقعیت مکانی</string>
+    <string name="privacy_permission_location_desc">پایه مکان‌های نزدیک، مسیریابی واقعیت افزوده و خاطرات فضایی است. کاملاً اختیاری — اسپکترا بدون آن هم کار می‌کند.</string>
+    <string name="privacy_permission_media">عکس‌ها و رسانه</string>
+    <string name="privacy_permission_media_desc">برای ذخیره تصاویر گرفته‌شده و وارد کردن عکس به دفترچه فضایی لازم است.</string>
+    <string name="privacy_permission_bluetooth">بلوتوث</string>
+    <string name="privacy_permission_bluetooth_desc">اختیاری — دقت مکان‌یابی داخل ساختمان را در صورت پشتیبانی بهبود می‌دهد.</string>
+    <string name="privacy_permission_notifications">اعلان‌ها</string>
+    <string name="privacy_permission_notifications_desc">برای یادآورهای فضایی و سررسید وظایف استفاده می‌شود.</string>
+    <string name="privacy_data_retention">مدت نگهداری داده</string>
+    <string name="privacy_data_retention_desc">مشخص کنید نتایج تشخیص متن، تاریخچه موقعیت مکانی، تاریخچه تشخیص و داده‌های نشست چه مدت پیش از حذف خودکار نگهداری شوند.</string>
+    <string name="privacy_export_data">خروجی گرفتن از داده‌هایم</string>
+    <string name="privacy_delete_all_data">حذف تمام داده‌ها</string>
+    <string name="privacy_cloud_ai_toggle">اجازه استفاده از هوش مصنوعی ابری</string>
+    <string name="privacy_cloud_ai_toggle_desc">وقتی خاموش باشد (پیش‌فرض)، دستیار هوشمند بینایی فقط از پردازش روی دستگاه استفاده می‌کند.</string>
+
+    <!-- امنیت -->
+    <string name="security_biometric_lock">قفل بیومتریک برای داده‌های شخصی</string>
+    <string name="security_biometric_lock_desc">برای باز کردن خاطرات، یادداشت‌ها و وظایف، اثر انگشت یا تشخیص چهره لازم باشد.</string>
+    <string name="security_auto_lock_timeout">قفل خودکار پس از</string>
+    <string name="security_encryption_status">رمزنگاری پایگاه‌داده محلی: فعال</string>
+    <string name="security_unlock_prompt_title">باز کردن قفل اسپکترا</string>
+    <string name="security_unlock_prompt_subtitle">برای مشاهده داده‌های شخصی واقعیت افزوده هویت خود را تأیید کنید</string>
+
+    <!-- پشتیبان‌گیری -->
+    <string name="backup_export_title">پشتیبان رمزنگاری‌شده</string>
+    <string name="backup_export_body">یک خروجی رمزنگاری‌شده از یادداشت‌ها، وظایف، نشانگرها و تنظیمات خود بسازید که بعداً بتوانید بازیابی کنید یا به دستگاه دیگری منتقل کنید.</string>
+    <string name="backup_export_action">گرفتن پشتیبان</string>
+    <string name="backup_import_action">بازیابی از پشتیبان</string>
+    <string name="backup_success">پشتیبان‌گیری کامل شد</string>
+    <string name="backup_restore_success">بازیابی کامل شد</string>
+
+    <!-- مدل‌ها -->
+    <string name="models_installed">مدل‌های نصب‌شده</string>
+    <string name="models_available">مدل‌های موجود</string>
+    <string name="models_download">دانلود</string>
+    <string name="models_remove">حذف</string>
+    <string name="models_update">به‌روزرسانی</string>
+    <string name="models_size">%1$s</string>
+    <string name="models_verifying">در حال بررسی صحت…</string>
+    <string name="models_download_failed">دانلود ناموفق بود — دوباره تلاش کنید</string>
+
+    <!-- باتری / کارایی -->
+    <string name="battery_saver_active">حالت صرفه‌جویی باتری: قابلیت‌های بینایی با کیفیت کاهش‌یافته اجرا می‌شوند</string>
+    <string name="thermal_throttling_active">دستگاه داغ شده — نرخ پردازش فریم کاهش می‌یابد</string>
+    <string name="performance_fps">%1$d فریم بر ثانیه</string>
+    <string name="performance_inference_ms">%1$d میلی‌ثانیه زمان استنتاج</string>
+
+    <!-- دلیل درخواست دسترسی -->
+    <string name="permission_denied_camera_title">دسترسی به دوربین لازم است</string>
+    <string name="permission_denied_camera_body">اسپکترا برای ساخت لایه اطلاعاتی واقعیت افزوده به دوربین نیاز دارد. هر زمان آماده بودید می‌توانید از تنظیمات آن را فعال کنید.</string>
+    <string name="permission_open_settings">باز کردن تنظیمات برنامه</string>
+    <string name="permission_not_now">الان نه</string>
+
+    <!-- عمومی -->
+    <string name="action_ok">تأیید</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">ویرایش</string>
+    <string name="action_retry">تلاش دوباره</string>
+    <string name="action_done">انجام شد</string>
+    <string name="error_generic">مشکلی پیش آمد. دوباره تلاش کنید.</string>
+    <string name="offline_feature_disabled">این قابلیت به اینترنت نیاز دارد و در حالت آفلاین غیرفعال است.</string>
+
+    <!-- پوشش دیباگ (فقط حالت توسعه‌دهنده) -->
+    <string name="debug_bounding_boxes">کادرهای محدوده</string>
+    <string name="debug_planes">صفحات</string>
+    <string name="debug_point_cloud">ابر نقاط</string>
+    <string name="debug_anchors">لنگرها</string>
+    <string name="debug_raycasts">پرتوهای ردیابی</string>
+    <string name="debug_tracking_state">وضعیت ردیابی: %1$s</string>
+</resources>

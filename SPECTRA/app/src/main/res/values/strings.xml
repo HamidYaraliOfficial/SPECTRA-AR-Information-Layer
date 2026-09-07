@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SPECTRA</string>
+    <string name="app_tagline">The world, layered with information.</string>
+
+    <!-- Navigation -->
+    <string name="nav_explore">Explore</string>
+    <string name="nav_ar_camera">AR Camera</string>
+    <string name="nav_memories">Memories</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to SPECTRA</string>
+    <string name="onboarding_welcome_body">Point your camera at the world. SPECTRA layers live information — text, objects, places, and your own notes — directly onto what you see.</string>
+    <string name="onboarding_privacy_title">Your data stays on your device</string>
+    <string name="onboarding_privacy_body">Camera frames, OCR, and object detection run on-device by default. Nothing is sent to the cloud unless you explicitly turn it on.</string>
+    <string name="onboarding_permissions_title">Permissions, explained up front</string>
+    <string name="onboarding_permissions_body">SPECTRA only asks for what a feature needs, when you use that feature. You can review or revoke everything from the Privacy Center at any time.</string>
+    <string name="onboarding_get_started">Get started</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+
+    <!-- Lenses -->
+    <string name="lens_explore">Explore Lens</string>
+    <string name="lens_text">Text Lens</string>
+    <string name="lens_object">Object Lens</string>
+    <string name="lens_travel">Travel Lens</string>
+    <string name="lens_memory">Memory Lens</string>
+    <string name="lens_shopping">Shopping Lens</string>
+    <string name="lens_study">Study Lens</string>
+    <string name="lens_navigation">Navigation Lens</string>
+    <string name="lens_custom">Custom Lens</string>
+    <string name="lens_builder_title">Lens Builder</string>
+    <string name="lens_builder_new">New custom lens</string>
+    <string name="lens_builder_triggers">Triggers</string>
+    <string name="lens_builder_layers">Information layers</string>
+    <string name="shortcut_open_text_lens">Open Text Lens</string>
+    <string name="shortcut_open_object_lens">Open Object Lens</string>
+
+    <!-- AR Camera HUD -->
+    <string name="hud_scanning">Scanning…</string>
+    <string name="hud_tracking_lost">Tracking lost — move your device slowly</string>
+    <string name="hud_relocalizing">Re-localizing…</string>
+    <string name="hud_low_confidence_hidden">%1$d low-confidence results hidden</string>
+    <string name="hud_location_on">Location on</string>
+    <string name="hud_location_off">Location off</string>
+    <string name="hud_offline">Offline</string>
+    <string name="hud_fps">%1$d FPS</string>
+    <string name="hud_debug_mode">Debug mode</string>
+    <string name="hud_capture">Capture</string>
+    <string name="hud_record">Record</string>
+    <string name="hud_lens_switch">Switch lens</string>
+    <string name="hud_layers">Layers</string>
+    <string name="hud_ai_assistant">Ask SPECTRA</string>
+    <string name="hud_voice_listening">Listening…</string>
+    <string name="hud_unsupported_device_title">Limited AR support on this device</string>
+    <string name="hud_unsupported_device_body">Your device doesn\'t support ARCore. SPECTRA will run in Camera-only mode: OCR, object detection and notes still work, without spatial anchoring.</string>
+
+    <!-- Object card -->
+    <string name="object_card_pin">Pin</string>
+    <string name="object_card_save">Save</string>
+    <string name="object_card_search">Search</string>
+    <string name="object_card_share">Share</string>
+    <string name="object_card_note">Note</string>
+    <string name="object_card_task">Task</string>
+    <string name="object_card_translate">Translate</string>
+    <string name="object_card_hide">Hide</string>
+    <string name="object_card_confidence">Confidence %1$d%%</string>
+
+    <!-- Explainability -->
+    <string name="explain_text_detected">Text detected</string>
+    <string name="explain_object_recognized">Object recognized</string>
+    <string name="explain_location_match">Location match</string>
+    <string name="explain_personal_marker">Your personal marker</string>
+    <string name="explain_poi_match">Point of interest nearby</string>
+
+    <!-- Text actions -->
+    <string name="text_action_copy">Copy</string>
+    <string name="text_action_translate">Translate</string>
+    <string name="text_action_search">Search</string>
+    <string name="text_action_save">Save</string>
+    <string name="text_action_summarize">Summarize</string>
+    <string name="text_action_add_note">Add to notes</string>
+    <string name="text_action_create_reminder">Create reminder</string>
+    <string name="text_action_open_url">Open link</string>
+    <string name="text_action_share">Share</string>
+    <string name="text_detected_language">Detected language: %1$s</string>
+
+    <!-- AI Vision Assistant -->
+    <string name="ai_assistant_title">Ask SPECTRA about what you see</string>
+    <string name="ai_assistant_hint">"What is this? Summarize this sign… Turn this into a task…"</string>
+    <string name="ai_assistant_thinking">Thinking…</string>
+    <string name="ai_assistant_cloud_warning_title">Send this frame to the cloud?</string>
+    <string name="ai_assistant_cloud_warning_body">This question needs the Cloud AI provider. The current camera frame and your question will be sent externally. Nothing is sent unless you approve.</string>
+    <string name="ai_assistant_allow_once">Allow once</string>
+    <string name="ai_assistant_deny">Don\'t send</string>
+    <string name="ai_action_create_note">Create note</string>
+    <string name="ai_action_create_task">Create task</string>
+    <string name="ai_action_translate">Translate</string>
+    <string name="ai_action_search">Search</string>
+    <string name="ai_action_add_bookmark">Add bookmark</string>
+    <string name="ai_action_add_place">Add place</string>
+    <string name="ai_action_create_reminder">Create reminder</string>
+    <string name="ai_action_confirm_title">Confirm action</string>
+    <string name="ai_action_confirm_body">SPECTRA wants to: %1$s</string>
+
+    <!-- Memories / Spatial Journal -->
+    <string name="memories_title">Memories</string>
+    <string name="memories_empty">Nothing pinned yet. Point the camera at a place or object and tap Pin to leave something here for later.</string>
+    <string name="memory_note_hint">Write a note attached to this spot…</string>
+    <string name="memory_task_due">Due %1$s</string>
+    <string name="memory_created_at">Left here on %1$s</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search notes, objects, text, places…</string>
+    <string name="search_filter_notes">Notes</string>
+    <string name="search_filter_objects">Objects</string>
+    <string name="search_filter_text">OCR text</string>
+    <string name="search_filter_places">Places</string>
+    <string name="search_filter_tasks">Tasks</string>
+    <string name="search_no_results">No results</string>
+
+    <!-- Opening hours -->
+    <string name="hours_title">Opening hours</string>
+    <string name="hours_subtitle">Enter the hours yourself — SPECTRA works out open/closed status and countdowns on-device, with no external data.</string>
+    <string name="hours_open_now">Open now</string>
+    <string name="hours_closed_now">Closed now</string>
+    <string name="hours_open_24h">Open 24 hours</string>
+    <string name="hours_closed_all_day">Closed all day</string>
+    <string name="hours_unknown">Hours not set</string>
+    <string name="hours_closes_in">Closes in %1$s</string>
+    <string name="hours_opens_in">Opens in %1$s</string>
+    <string name="hours_closing_soon">Closing soon</string>
+    <string name="hours_opens_tomorrow_at">Opens tomorrow at %1$s</string>
+    <string name="hours_add_range">Add time range</string>
+    <string name="hours_remove_range">Remove</string>
+    <string name="hours_copy_to_all_days">Copy this day to all days</string>
+    <string name="hours_from">From</string>
+    <string name="hours_to">To</string>
+    <string name="hours_day_1">Monday</string>
+    <string name="hours_day_2">Tuesday</string>
+    <string name="hours_day_3">Wednesday</string>
+    <string name="hours_day_4">Thursday</string>
+    <string name="hours_day_5">Friday</string>
+    <string name="hours_day_6">Saturday</string>
+    <string name="hours_day_7">Sunday</string>
+    <string name="hours_save">Save hours</string>
+    <string name="hours_duration_days">%1$dd %2$dh</string>
+    <string name="hours_duration_hours">%1$dh %2$dm</string>
+    <string name="hours_duration_minutes">%1$dm</string>
+
+    <!-- Map / Navigation -->
+    <string name="map_title">Map</string>
+    <string name="nav_distance_meters">%1$d m</string>
+    <string name="nav_distance_km">%1$.1f km</string>
+    <string name="nav_arrive_in">Arrive in %1$s</string>
+    <string name="nav_start">Start AR navigation</string>
+    <string name="nav_stop">Stop navigation</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_clear">Clear history</string>
+    <string name="history_clear_confirm">This removes detection and interaction history from this device. Personal notes and tasks are not affected.</string>
+    <string name="history_empty">Nothing here yet</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_camera">Camera</string>
+    <string name="settings_ar">AR</string>
+    <string name="settings_vision">Vision</string>
+    <string name="settings_ai">AI</string>
+    <string name="settings_location">Location</string>
+    <string name="settings_maps">Maps</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_battery">Battery</string>
+    <string name="settings_models">Models</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_advanced">Advanced</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_about">About SPECTRA</string>
+
+    <!-- Appearance -->
+    <string name="appearance_theme_mode">Theme mode</string>
+    <string name="appearance_mode_system">System</string>
+    <string name="appearance_mode_light">Light</string>
+    <string name="appearance_mode_dark">Dark</string>
+    <string name="appearance_accent">Accent</string>
+    <string name="appearance_accent_default">Windows Default</string>
+    <string name="appearance_accent_blue">Blue</string>
+    <string name="appearance_accent_red">Red</string>
+    <string name="appearance_dynamic_color">Dynamic color (Material You)</string>
+    <string name="appearance_auto_schedule">Switch to dark automatically at sunset</string>
+    <string name="appearance_reduce_motion">Reduce motion</string>
+    <string name="appearance_amoled">Pure black (AMOLED)</string>
+
+    <!-- Privacy Center -->
+    <string name="privacy_center_title">Privacy Center</string>
+    <string name="privacy_permission_camera">Camera</string>
+    <string name="privacy_permission_camera_desc">Required for every AR and vision feature — live preview never leaves this screen unless you export it.</string>
+    <string name="privacy_permission_microphone">Microphone</string>
+    <string name="privacy_permission_microphone_desc">Used only for optional hands-free voice commands to the AI Vision Assistant. Off by default.</string>
+    <string name="privacy_permission_location">Location</string>
+    <string name="privacy_permission_location_desc">Powers nearby places, AR navigation and spatial memories. Fully optional — SPECTRA works without it.</string>
+    <string name="privacy_permission_media">Photos &amp; media</string>
+    <string name="privacy_permission_media_desc">Needed to save captures and import photos into your Spatial Journal.</string>
+    <string name="privacy_permission_bluetooth">Bluetooth</string>
+    <string name="privacy_permission_bluetooth_desc">Optional — improves indoor positioning accuracy where supported.</string>
+    <string name="privacy_permission_notifications">Notifications</string>
+    <string name="privacy_permission_notifications_desc">Used for spatial reminders and task due dates.</string>
+    <string name="privacy_data_retention">Data retention</string>
+    <string name="privacy_data_retention_desc">Choose how long OCR results, location history, detection history and session data are kept before automatic deletion.</string>
+    <string name="privacy_export_data">Export my data</string>
+    <string name="privacy_delete_all_data">Delete all data</string>
+    <string name="privacy_cloud_ai_toggle">Allow Cloud AI</string>
+    <string name="privacy_cloud_ai_toggle_desc">When off (default), the AI Vision Assistant only uses on-device processing.</string>
+
+    <!-- Security -->
+    <string name="security_biometric_lock">Biometric lock for personal data</string>
+    <string name="security_biometric_lock_desc">Require fingerprint or face unlock to open Memories, Notes and Tasks.</string>
+    <string name="security_auto_lock_timeout">Auto-lock after</string>
+    <string name="security_encryption_status">Local database encryption: active</string>
+    <string name="security_unlock_prompt_title">Unlock SPECTRA</string>
+    <string name="security_unlock_prompt_subtitle">Confirm your identity to view personal AR data</string>
+
+    <!-- Backup -->
+    <string name="backup_export_title">Encrypted backup</string>
+    <string name="backup_export_body">Create an encrypted export of your notes, tasks, markers and settings that you can restore later or move to another device.</string>
+    <string name="backup_export_action">Export backup</string>
+    <string name="backup_import_action">Restore from backup</string>
+    <string name="backup_success">Backup complete</string>
+    <string name="backup_restore_success">Restore complete</string>
+
+    <!-- Models -->
+    <string name="models_installed">Installed models</string>
+    <string name="models_available">Available models</string>
+    <string name="models_download">Download</string>
+    <string name="models_remove">Remove</string>
+    <string name="models_update">Update</string>
+    <string name="models_size">%1$s</string>
+    <string name="models_verifying">Verifying integrity…</string>
+    <string name="models_download_failed">Download failed — please try again</string>
+
+    <!-- Battery / performance -->
+    <string name="battery_saver_active">Battery saver: vision features running at reduced quality</string>
+    <string name="thermal_throttling_active">Device is warm — reducing frame analysis rate</string>
+    <string name="performance_fps">%1$d FPS</string>
+    <string name="performance_inference_ms">%1$d ms inference</string>
+
+    <!-- Permission rationale -->
+    <string name="permission_denied_camera_title">Camera access needed</string>
+    <string name="permission_denied_camera_body">SPECTRA needs the camera to build the AR information layer. You can grant it from Settings whenever you\'re ready.</string>
+    <string name="permission_open_settings">Open app settings</string>
+    <string name="permission_not_now">Not now</string>
+
+    <!-- Generic -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_done">Done</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="offline_feature_disabled">This needs an internet connection and is disabled while offline.</string>
+
+    <!-- Debug overlay (developer mode only) -->
+    <string name="debug_bounding_boxes">Bounding boxes</string>
+    <string name="debug_planes">Planes</string>
+    <string name="debug_point_cloud">Point cloud</string>
+    <string name="debug_anchors">Anchors</string>
+    <string name="debug_raycasts">Raycasts</string>
+    <string name="debug_tracking_state">Tracking state: %1$s</string>
+</resources>

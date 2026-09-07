@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="lens_text"
+        android:enabled="true"
+        android:icon="@drawable/ic_lens_text"
+        android:shortcutShortLabel="@string/lens_text"
+        android:shortcutLongLabel="@string/shortcut_open_text_lens">
+        <intent
+            android:action="com.spectra.ar.action.OPEN_LENS"
+            android:targetPackage="com.spectra.ar"
+            android:targetClass="com.spectra.ar.MainActivity">
+            <extra android:name="lens_id" android:value="TEXT" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="lens_object"
+        android:enabled="true"
+        android:icon="@drawable/ic_lens_object"
+        android:shortcutShortLabel="@string/lens_object"
+        android:shortcutLongLabel="@string/shortcut_open_object_lens">
+        <intent
+            android:action="com.spectra.ar.action.OPEN_LENS"
+            android:targetPackage="com.spectra.ar"
+            android:targetClass="com.spectra.ar.MainActivity">
+            <extra android:name="lens_id" android:value="OBJECT" />
+        </intent>
+    </shortcut>
+</shortcuts>

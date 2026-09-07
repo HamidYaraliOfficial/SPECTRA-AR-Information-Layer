@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SPECTRA</string>
+    <string name="app_tagline">为真实世界叠加一层信息。</string>
+
+    <!-- 导航 -->
+    <string name="nav_explore">探索</string>
+    <string name="nav_ar_camera">AR 相机</string>
+    <string name="nav_memories">回忆</string>
+    <string name="nav_map">地图</string>
+    <string name="nav_history">历史记录</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- 新手引导 -->
+    <string name="onboarding_welcome_title">欢迎使用 SPECTRA</string>
+    <string name="onboarding_welcome_body">将摄像头对准周围的世界。SPECTRA 会把实时信息——文字、物体、地点以及你自己的笔记——直接叠加在你看到的画面上。</string>
+    <string name="onboarding_privacy_title">数据保留在你的设备上</string>
+    <string name="onboarding_privacy_body">摄像头画面处理、文字识别和物体检测默认全部在设备本地完成。除非你主动开启，否则不会上传到云端。</string>
+    <string name="onboarding_permissions_title">权限说明,提前告知</string>
+    <string name="onboarding_permissions_body">只有在你使用某项功能时,SPECTRA 才会请求该功能所需的权限。你可以随时在隐私中心查看或撤销所有权限。</string>
+    <string name="onboarding_get_started">开始使用</string>
+    <string name="onboarding_skip">跳过</string>
+    <string name="onboarding_next">下一步</string>
+
+    <!-- 镜头模式 -->
+    <string name="lens_explore">探索镜头</string>
+    <string name="lens_text">文字镜头</string>
+    <string name="lens_object">物体镜头</string>
+    <string name="lens_travel">旅行镜头</string>
+    <string name="lens_memory">回忆镜头</string>
+    <string name="lens_shopping">购物镜头</string>
+    <string name="lens_study">学习镜头</string>
+    <string name="lens_navigation">导航镜头</string>
+    <string name="lens_custom">自定义镜头</string>
+    <string name="lens_builder_title">镜头构建器</string>
+    <string name="lens_builder_new">新建自定义镜头</string>
+    <string name="lens_builder_triggers">触发条件</string>
+    <string name="lens_builder_layers">信息图层</string>
+    <string name="shortcut_open_text_lens">打开文字镜头</string>
+    <string name="shortcut_open_object_lens">打开物体镜头</string>
+
+    <!-- AR 相机 HUD -->
+    <string name="hud_scanning">正在扫描…</string>
+    <string name="hud_tracking_lost">跟踪丢失 — 请缓慢移动设备</string>
+    <string name="hud_relocalizing">正在重新定位…</string>
+    <string name="hud_low_confidence_hidden">已隐藏 %1$d 个低置信度结果</string>
+    <string name="hud_location_on">定位已开启</string>
+    <string name="hud_location_off">定位已关闭</string>
+    <string name="hud_offline">离线</string>
+    <string name="hud_fps">%1$d FPS</string>
+    <string name="hud_debug_mode">调试模式</string>
+    <string name="hud_capture">拍照</string>
+    <string name="hud_record">录制</string>
+    <string name="hud_lens_switch">切换镜头</string>
+    <string name="hud_layers">图层</string>
+    <string name="hud_ai_assistant">问问 SPECTRA</string>
+    <string name="hud_voice_listening">正在聆听…</string>
+    <string name="hud_unsupported_device_title">此设备的 AR 支持有限</string>
+    <string name="hud_unsupported_device_body">你的设备不支持 ARCore。SPECTRA 将以纯相机模式运行:文字识别、物体检测和笔记功能仍可使用,但没有空间锚定。</string>
+
+    <!-- 物体卡片 -->
+    <string name="object_card_pin">固定</string>
+    <string name="object_card_save">保存</string>
+    <string name="object_card_search">搜索</string>
+    <string name="object_card_share">分享</string>
+    <string name="object_card_note">笔记</string>
+    <string name="object_card_task">任务</string>
+    <string name="object_card_translate">翻译</string>
+    <string name="object_card_hide">隐藏</string>
+    <string name="object_card_confidence">置信度 %1$d%%</string>
+
+    <!-- 可解释性 -->
+    <string name="explain_text_detected">已检测到文字</string>
+    <string name="explain_object_recognized">已识别物体</string>
+    <string name="explain_location_match">与位置匹配</string>
+    <string name="explain_personal_marker">你的个人标记</string>
+    <string name="explain_poi_match">附近的兴趣点</string>
+
+    <!-- 文本操作 -->
+    <string name="text_action_copy">复制</string>
+    <string name="text_action_translate">翻译</string>
+    <string name="text_action_search">搜索</string>
+    <string name="text_action_save">保存</string>
+    <string name="text_action_summarize">生成摘要</string>
+    <string name="text_action_add_note">添加到笔记</string>
+    <string name="text_action_create_reminder">创建提醒</string>
+    <string name="text_action_open_url">打开链接</string>
+    <string name="text_action_share">分享</string>
+    <string name="text_detected_language">检测到的语言:%1$s</string>
+
+    <!-- AI 视觉助手 -->
+    <string name="ai_assistant_title">向 SPECTRA 询问你看到的内容</string>
+    <string name="ai_assistant_hint">"这是什么?总结一下这个牌子的内容…把它变成一个任务…"</string>
+    <string name="ai_assistant_thinking">思考中…</string>
+    <string name="ai_assistant_cloud_warning_title">要将此画面发送到云端吗?</string>
+    <string name="ai_assistant_cloud_warning_body">此问题需要云端 AI 服务。当前相机画面和你的问题将被发送到外部。未经你同意不会发送任何内容。</string>
+    <string name="ai_assistant_allow_once">仅允许一次</string>
+    <string name="ai_assistant_deny">不发送</string>
+    <string name="ai_action_create_note">创建笔记</string>
+    <string name="ai_action_create_task">创建任务</string>
+    <string name="ai_action_translate">翻译</string>
+    <string name="ai_action_search">搜索</string>
+    <string name="ai_action_add_bookmark">添加书签</string>
+    <string name="ai_action_add_place">添加地点</string>
+    <string name="ai_action_create_reminder">创建提醒</string>
+    <string name="ai_action_confirm_title">确认操作</string>
+    <string name="ai_action_confirm_body">SPECTRA 想要执行:%1$s</string>
+
+    <!-- 回忆 / 空间日志 -->
+    <string name="memories_title">回忆</string>
+    <string name="memories_empty">还没有固定任何内容。将相机对准一个地点或物体,点击"固定"即可在此留下以后要用的内容。</string>
+    <string name="memory_note_hint">写一条与此地点关联的笔记…</string>
+    <string name="memory_task_due">截止日期 %1$s</string>
+    <string name="memory_created_at">于 %1$s 留在此处</string>
+
+    <!-- 搜索 -->
+    <string name="search_hint">搜索笔记、物体、文字、地点…</string>
+    <string name="search_filter_notes">笔记</string>
+    <string name="search_filter_objects">物体</string>
+    <string name="search_filter_text">识别的文字</string>
+    <string name="search_filter_places">地点</string>
+    <string name="search_filter_tasks">任务</string>
+    <string name="search_no_results">没有找到结果</string>
+
+    <!-- 营业时间 -->
+    <string name="hours_title">营业时间</string>
+    <string name="hours_subtitle">时间由你自己输入 — SPECTRA 会在设备本地计算营业/打烊状态及倒计时,不使用任何外部数据。</string>
+    <string name="hours_open_now">现在营业</string>
+    <string name="hours_closed_now">现在打烊</string>
+    <string name="hours_open_24h">24 小时营业</string>
+    <string name="hours_closed_all_day">全天休息</string>
+    <string name="hours_unknown">尚未设置时间</string>
+    <string name="hours_closes_in">%1$s后打烊</string>
+    <string name="hours_opens_in">%1$s后营业</string>
+    <string name="hours_closing_soon">即将打烊</string>
+    <string name="hours_opens_tomorrow_at">明天 %1$s 开始营业</string>
+    <string name="hours_add_range">添加时间段</string>
+    <string name="hours_remove_range">删除</string>
+    <string name="hours_copy_to_all_days">将此天设置应用到所有天</string>
+    <string name="hours_from">从</string>
+    <string name="hours_to">到</string>
+    <string name="hours_day_1">星期一</string>
+    <string name="hours_day_2">星期二</string>
+    <string name="hours_day_3">星期三</string>
+    <string name="hours_day_4">星期四</string>
+    <string name="hours_day_5">星期五</string>
+    <string name="hours_day_6">星期六</string>
+    <string name="hours_day_7">星期日</string>
+    <string name="hours_save">保存时间</string>
+    <string name="hours_duration_days">%1$d 天 %2$d 小时</string>
+    <string name="hours_duration_hours">%1$d 小时 %2$d 分钟</string>
+    <string name="hours_duration_minutes">%1$d 分钟</string>
+
+    <!-- 地图 / 导航 -->
+    <string name="map_title">地图</string>
+    <string name="nav_distance_meters">%1$d 米</string>
+    <string name="nav_distance_km">%1$.1f 公里</string>
+    <string name="nav_arrive_in">%1$s后到达</string>
+    <string name="nav_start">开始 AR 导航</string>
+    <string name="nav_stop">停止导航</string>
+
+    <!-- 历史记录 -->
+    <string name="history_title">历史记录</string>
+    <string name="history_clear">清除历史记录</string>
+    <string name="history_clear_confirm">此操作会从此设备中删除检测和交互历史记录。个人笔记与任务不会受到影响。</string>
+    <string name="history_empty">这里还没有内容</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_general">通用</string>
+    <string name="settings_camera">相机</string>
+    <string name="settings_ar">AR</string>
+    <string name="settings_vision">视觉识别</string>
+    <string name="settings_ai">人工智能</string>
+    <string name="settings_location">位置</string>
+    <string name="settings_maps">地图</string>
+    <string name="settings_privacy">隐私</string>
+    <string name="settings_security">安全</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_battery">电池</string>
+    <string name="settings_models">模型</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_advanced">高级</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_about">关于 SPECTRA</string>
+
+    <!-- 外观 -->
+    <string name="appearance_theme_mode">主题模式</string>
+    <string name="appearance_mode_system">跟随系统</string>
+    <string name="appearance_mode_light">浅色</string>
+    <string name="appearance_mode_dark">深色</string>
+    <string name="appearance_accent">强调色</string>
+    <string name="appearance_accent_default">Windows 默认</string>
+    <string name="appearance_accent_blue">蓝色</string>
+    <string name="appearance_accent_red">红色</string>
+    <string name="appearance_dynamic_color">动态取色(Material You)</string>
+    <string name="appearance_auto_schedule">日落时自动切换为深色</string>
+    <string name="appearance_reduce_motion">减少动效</string>
+    <string name="appearance_amoled">纯黑(AMOLED)</string>
+
+    <!-- 隐私中心 -->
+    <string name="privacy_center_title">隐私中心</string>
+    <string name="privacy_permission_camera">相机</string>
+    <string name="privacy_permission_camera_desc">所有 AR 与视觉功能都需要它——除非你主动导出,否则实时画面不会离开此屏幕。</string>
+    <string name="privacy_permission_microphone">麦克风</string>
+    <string name="privacy_permission_microphone_desc">仅用于向 AI 视觉助手发出可选的免提语音指令。默认关闭。</string>
+    <string name="privacy_permission_location">位置</string>
+    <string name="privacy_permission_location_desc">用于支持附近地点、AR 导航和空间回忆功能。完全可选——不开启 SPECTRA 也能正常使用。</string>
+    <string name="privacy_permission_media">照片和媒体</string>
+    <string name="privacy_permission_media_desc">用于保存拍摄内容,以及将照片导入你的空间日志。</string>
+    <string name="privacy_permission_bluetooth">蓝牙</string>
+    <string name="privacy_permission_bluetooth_desc">可选——在支持的环境下可提升室内定位精度。</string>
+    <string name="privacy_permission_notifications">通知</string>
+    <string name="privacy_permission_notifications_desc">用于空间提醒和任务截止日期通知。</string>
+    <string name="privacy_data_retention">数据保留期限</string>
+    <string name="privacy_data_retention_desc">设置文字识别结果、位置历史、检测历史和会话数据在自动删除前保留的时长。</string>
+    <string name="privacy_export_data">导出我的数据</string>
+    <string name="privacy_delete_all_data">删除所有数据</string>
+    <string name="privacy_cloud_ai_toggle">允许使用云端 AI</string>
+    <string name="privacy_cloud_ai_toggle_desc">关闭时(默认状态),AI 视觉助手仅使用设备本地处理。</string>
+
+    <!-- 安全 -->
+    <string name="security_biometric_lock">个人数据的生物识别锁</string>
+    <string name="security_biometric_lock_desc">打开回忆、笔记和任务时需要指纹或面部识别验证。</string>
+    <string name="security_auto_lock_timeout">自动锁定时间</string>
+    <string name="security_encryption_status">本地数据库加密:已启用</string>
+    <string name="security_unlock_prompt_title">解锁 SPECTRA</string>
+    <string name="security_unlock_prompt_subtitle">请验证身份以查看个人 AR 数据</string>
+
+    <!-- 备份 -->
+    <string name="backup_export_title">加密备份</string>
+    <string name="backup_export_body">为你的笔记、任务、标记和设置创建加密导出文件,以便日后恢复或迁移到其他设备。</string>
+    <string name="backup_export_action">导出备份</string>
+    <string name="backup_import_action">从备份恢复</string>
+    <string name="backup_success">备份完成</string>
+    <string name="backup_restore_success">恢复完成</string>
+
+    <!-- 模型 -->
+    <string name="models_installed">已安装的模型</string>
+    <string name="models_available">可用模型</string>
+    <string name="models_download">下载</string>
+    <string name="models_remove">移除</string>
+    <string name="models_update">更新</string>
+    <string name="models_size">%1$s</string>
+    <string name="models_verifying">正在校验完整性…</string>
+    <string name="models_download_failed">下载失败 — 请重试</string>
+
+    <!-- 电池 / 性能 -->
+    <string name="battery_saver_active">省电模式:视觉功能正以降低的质量运行</string>
+    <string name="thermal_throttling_active">设备温度较高 — 正在降低帧分析频率</string>
+    <string name="performance_fps">%1$d FPS</string>
+    <string name="performance_inference_ms">推理耗时 %1$d 毫秒</string>
+
+    <!-- 权限说明 -->
+    <string name="permission_denied_camera_title">需要相机权限</string>
+    <string name="permission_denied_camera_body">SPECTRA 需要使用相机来构建 AR 信息层。你可以在准备好后随时前往设置中开启。</string>
+    <string name="permission_open_settings">打开应用设置</string>
+    <string name="permission_not_now">暂不设置</string>
+
+    <!-- 通用 -->
+    <string name="action_ok">确定</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">删除</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_retry">重试</string>
+    <string name="action_done">完成</string>
+    <string name="error_generic">出了点问题,请重试。</string>
+    <string name="offline_feature_disabled">此功能需要联网,离线状态下已禁用。</string>
+
+    <!-- 调试图层(仅开发者模式) -->
+    <string name="debug_bounding_boxes">边界框</string>
+    <string name="debug_planes">平面</string>
+    <string name="debug_point_cloud">点云</string>
+    <string name="debug_anchors">锚点</string>
+    <string name="debug_raycasts">射线检测</string>
+    <string name="debug_tracking_state">跟踪状态:%1$s</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Spectra" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Spectra.Splash" parent="Theme.Spectra">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

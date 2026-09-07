@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base activity theme: Compose (SpectraTheme.kt) owns all real theming; this XML
+         theme only configures window-level behavior that Compose cannot (splash, status bar
+         initial state) before the first Composable is drawn. -->
+    <style name="Theme.Spectra" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+    <style name="Theme.Spectra.Splash" parent="Theme.Spectra">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>
